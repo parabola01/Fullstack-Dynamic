@@ -1,0 +1,188 @@
+.App {
+  text-align: center;
+  flex-direction: column;
+  display: flex;
+}
+.element{
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  height: 300px;
+  border: 5px solid #123f62;
+  margin-top: 0;
+  margin: 15px auto;
+  background-color: white;
+  box-shadow: rgba(79, 79, 79, 0.2) 0 4px 8px 0;
+  cursor: pointer;
+
+}
+
+.title{
+  font-size: 200%;
+  flex: 20%;
+  background-color: #123f62;
+  display: grid;
+  place-content: center;
+  color: white;
+}
+
+.info, .shop{
+  flex: 30%;
+  display: grid;
+  place-content: center;
+  border-bottom: 1px solid #123f62;
+}
+.shop{
+  flex: 15%;
+}
+
+.inputInfo{
+  height: 300px;
+  display:inline-block;
+  padding:15px 10px;
+  line-height:200%;
+}
+.date{
+  flex: 10%;
+  display: grid;
+  place-content: center;
+  border-bottom: 1px solid #123f62;
+}
+
+.createElement{
+  font-size: 150%;
+  height: auto;
+  justify-content: center;
+  display: flex;
+  padding-top: 15px;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 700px;
+  height: auto;
+  padding: 20px;
+  border: 5px solid #123f62;
+  font-size: 18px;
+}
+
+.form #inputCreateElement{
+  height: 40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 2px solid grey;
+  border-radius: 5px;
+  padding-left: 10px;
+  font-size: 15px;
+}
+
+.form label {
+  text-align: left;
+}
+
+#col-datePicker {
+  width: 180px;
+  justify-content: left;
+  height: 40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  padding-left: 0;
+
+}
+
+#col-datePicker input{
+  width: 150px;
+  font-size: 18px;
+}
+
+.form button{
+  margin-top: 10px;
+  height: 40px;
+  background-color: #123f62;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+span{
+  color: red;
+  padding-top: 10px;
+  text-align: left;
+}
+
+.navbar{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #f3f3f3;
+
+}
+
+.link {
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  float: left;
+  font-size: 25px;
+}
+
+.link:hover{
+  background-color: #b6b4b4;
+}
+
+#logout{
+  float: right;
+  border: none;
+  cursor: pointer;
+}
+
+.navbar #name{
+  float: right;
+  margin-right: 10px;
+  font-weight: lighter;
+  border: 1px solid #123f62;
+
+}
+
+#edit{
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+  height: auto;
+  padding: 20px;
+  font-size: 18px;
+  margin: 0 auto;
+}
+
+#edit button{
+  margin-top: 10px;
+  height: 40px;
+  background-color: #123f62;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+
+}
+
+.infos{
+  border: 2px solid #123f62;
+  font-size: 25px;
+  width: 500px;
+  font-weight: lighter;
+  padding: 20px 15px 15px 15px;
+  margin: 20px auto;
+}
+
+.profilePage{
+
+}
+
+
+
+
